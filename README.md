@@ -4,12 +4,12 @@ Crocheters typically tend to lose count of what row and stitch they are on when 
 ## The MVP Scope
 - Create a crochet project.
 - Track and update row number.
-- Save project progresss in a file.
+- Save project progress in a file.
 - View and edit project notes/progress.
 
 ## My Future Plans
 
-- To store multiple project.
+- To store multiple projects.
 - Upload crochet patterns.
 - Counting stitches + stitch type.
 - Progress percentage tracker.
