@@ -10,7 +10,7 @@ Crocheters typically tend to lose count of what row and stitch they are on when 
 ## My Future Plans
 
 - To store multiple project.
-- Upload crochet pattersn.
+- Upload crochet patterns.
 - Counting stitches + stitch type.
 - Progress percentage tracker.
 - Searching and sorting projects.
