@@ -6,6 +6,8 @@ Crocheters typically tend to lose count of what row and stitch they are on when 
 - Track and update row number.
 - Save project progress in a file.
 - View and edit project notes/progress.
+- Write Notes as a class of its own, which CrochetProject then stores as an ArrayList.
+
 
 ## My Future Plans
 
@@ -14,7 +16,6 @@ Crocheters typically tend to lose count of what row and stitch they are on when 
 - Counting stitches + stitch type.
 - Progress percentage tracker.
 - Searching and sorting projects.
-- Change notes from a single string to a class of its own, which CrochetProject then stores as an ArrayList.
 
 ## My Tech Stack
 - Java
