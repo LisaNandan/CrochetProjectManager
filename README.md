@@ -14,6 +14,7 @@ Crocheters typically tend to lose count of what row and stitch they are on when 
 - Counting stitches + stitch type.
 - Progress percentage tracker.
 - Searching and sorting projects.
+- Change notes from a single string to a class of its own, which CrochetProject then stores as an ArrayList.
 
 ## My Tech Stack
 - Java
