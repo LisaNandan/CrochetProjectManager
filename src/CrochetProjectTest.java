@@ -1,6 +1,9 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+<<<<<<< HEAD
  
+=======
+>>>>>>> c0aeaab (Correctly transferring items from incorrect repo)
 class CrochetProjectTest {
  
     @Test
@@ -10,6 +13,10 @@ class CrochetProjectTest {
         assertTrue(project.getNotes().isEmpty());
     }
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0aeaab (Correctly transferring items from incorrect repo)
     @Test
     void decrementAtRowOneStaysAtRowOne() {
         CrochetProject project = new CrochetProject("Blanket");
@@ -17,11 +24,19 @@ class CrochetProjectTest {
         assertEquals(1, project.getRowNum());
     }
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0aeaab (Correctly transferring items from incorrect repo)
     @Test
     void constructorRejectsBlankName() {
         assertThrows(IllegalArgumentException.class, () -> new CrochetProject("   "));
     }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> c0aeaab (Correctly transferring items from incorrect repo)
     @Test
     void addNoteUsesCurrentRow() {
         CrochetProject project = new CrochetProject("Blanket");
@@ -30,7 +45,11 @@ class CrochetProjectTest {
         assertEquals(1, project.getNotes().size());
         assertEquals(2, project.getNotes().get(0).getRowNum());
     }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> c0aeaab (Correctly transferring items from incorrect repo)
     @Test
     void removeNoteReturnsFalseForUnknownNote() {
         CrochetProject project = new CrochetProject("Blanket");
@@ -78,5 +97,10 @@ class CrochetProjectTest {
         project.incrementRow();
         assertEquals(1, note.getRowNum());
     }
+<<<<<<< HEAD
 }
  
+=======
+
+}
+>>>>>>> c0aeaab (Correctly transferring items from incorrect repo)

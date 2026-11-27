@@ -1,0 +1,8 @@
+# Compiled output (rebuilt automatically)
+bin/
+*.class
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
