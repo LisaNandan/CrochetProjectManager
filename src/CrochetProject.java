@@ -62,5 +62,10 @@ public class CrochetProject {
         }
     }
 
+    @Override 
+    public String toString() {
+        return "CrochetProject{" + "rowNum=" + rowNum + ", projName='" + projName + '\'' + ", notes count=" + notes.size() +'}';
+    }
+
 
 }
