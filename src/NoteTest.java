@@ -34,14 +34,13 @@ class NoteTest {
         assertEquals("original", note.getContent());
     }
  
-    // TODO: setContent("") changes the content to empty
     @Test
     void setContentWithEmptyStringChangesContent() {
         Note note = new Note(4, "original");
         note.setContent("");
         assertEquals("", note.getContent());
     }
-    // TODO: setContent with a normal string changes the content, and the row number stays the same
+
     @Test
     void setContentWithNormalStringChangesContent() {
         Note note = new Note(4, "original");
@@ -49,8 +48,7 @@ class NoteTest {
         assertEquals("updated", note.getContent());
         assertEquals(4, note.getRowNum());
     }
-    // TODO: createdAt falls between an Instant captured before and one captured after construction
-    //       (hint: isBefore / isAfter, and think about whether the boundaries are inclusive)
+
     @Test 
     void createdAtFallsBetweenInstantBounds() {
         Instant before = Instant.now();
