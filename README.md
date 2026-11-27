@@ -15,6 +15,7 @@ Crocheters typically tend to lose count of what row and stitch they are on when 
 - Progress percentage tracker.
 - Searching and sorting projects.
 - Note edit history.
+- Create JavaFX screen.
 
 ## My Tech Stack
 - Java
