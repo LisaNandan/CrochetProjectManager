@@ -57,7 +57,7 @@ public class App {
        
         //Note invalidNote = new Note(0, "This note has an invalid row number."); // This should throw an exception
    
-        Note invalidNote2 = new Note(1, null); // This should throw an exception
+        //Note invalidNote2 = new Note(1, null); // This should throw an exception
         
         // // Testing CrochetProject class
         System.out.println("\n\nTesting CrochetProject class:");
