@@ -9,9 +9,9 @@ public class CrochetProject {
 
     public CrochetProject(String name) {
         rowNum = 1;
-        if (name == null || name.trim().isEmpty()) {
+        if (!checkName(name)) {
             throw new IllegalArgumentException("Project name cannot be null or empty.");
-        } 
+        }
         this.projName = name.trim();
         notes = new ArrayList<>();
     }
@@ -62,6 +62,27 @@ public class CrochetProject {
         }
     }
 
+    public boolean isValid() {
+        if (rowNum < 1) {
+            return false;
+        }
+        if (!checkName(projName)) {
+            return false;
+        }
+        if (notes == null) {
+            return false;
+        }
+        for (Note note : notes) {
+            if (note == null || !note.isValid()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static boolean checkName(String name) {
+        return name != null && !name.trim().isEmpty();
+    }
     @Override 
     public String toString() {
         return "CrochetProject{" + "rowNum=" + rowNum + ", projName='" + projName + '\'' + ", notes count=" + notes.size() +'}';

@@ -61,6 +61,10 @@ public class Note {
         return TIME_FORMATTER.format(createdAt);
     }
 
+    public boolean isValid() {
+        return checkRowNum(rowNum) && checkContent(content) && createdAt != null;
+    }
+
     @Override 
     public String toString() {
         return "\nNote: " + content + "\nCreated On: " + formatCreatedDate() + " at " + formatCreatedTime() + "\nRow Number: " + rowNum;
